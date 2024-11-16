@@ -7,8 +7,7 @@ let current = 0;
 setInterval(() => {
     if(current == length - 1) {
         current = 0;
-        let width = imgs[0].offsetWidth;
-        ImageList.style.transform = `translateX(0px)`;
+        listImage.style.transform = `translateX(0px)`;
     } else {
         current ++;
         let width = imgs[0].offsetWidth;
