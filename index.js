@@ -1,6 +1,8 @@
 
 const listImage = document.querySelector('.list-images');
 const imgs = document.getElementsByTagName('img');
+const btnLeft = document.querySelector('.btn-left');
+const btnRight = document.querySelector('.btn-right');
 const length = imgs.length;
 let current = 0;
 
