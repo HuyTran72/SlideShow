@@ -16,3 +16,7 @@ setInterval(() => {
         listImage.style.transform = `translateX(-${width*current}px)`;
     }
 }, 3000);
+
+btnRight.addEventListener('click', () => {
+
+});
